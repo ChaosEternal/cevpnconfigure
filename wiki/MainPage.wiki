@@ -1,0 +1,11 @@
+CE's vpn configuration files
+
+= Introduction =
+
+for client use
+get these two files:
+
+the ca file: [http://code.google.com/p/cevpnconfigure/source/browse/trunk/c047fb96.ca c047fb96.ca]
+
+the openvpnconfig file [http://code.google.com/p/cevpnconfigure/source/browse/trunk/client.conf client.conf]
+
