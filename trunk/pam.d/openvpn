@@ -1,0 +1,7 @@
+auth       optional   pam_faildelay.so  delay=3000000
+auth       requisite  pam_nologin.so
+auth       required   pam_listfile.so onerr=fail item=group sense=allow file=/etc/openvpn/vpngroup
+@include common-auth
+@include common-account
+@include common-session
+@include common-password
