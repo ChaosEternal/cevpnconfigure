@@ -1,0 +1,2 @@
+#!/bin/sh
+DISRDUSER=abcd
